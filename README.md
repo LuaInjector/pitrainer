@@ -3,8 +3,8 @@
 
 ## Usage
 
-Enter -  Proceeds to the next digit<br>
-Esc   -  Exits the program
+Enter - Proceeds to the next digit<br>
+Esc -  Exits the program
 
 ## Requirements
 
