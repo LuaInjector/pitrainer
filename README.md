@@ -1,5 +1,5 @@
 # PI Trainer
- Basically a PI Trainer made for mad scientists
+ Basically a PI Trainer but for mad scientists
 
 ## Usage
 
