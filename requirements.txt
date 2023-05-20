@@ -1,0 +1,3 @@
+mpmath==1.3.0
+pyfiglet==0.8.post1
+pynput==1.7.6
