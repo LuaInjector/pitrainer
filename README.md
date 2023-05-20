@@ -3,7 +3,7 @@
 
 ## Usage
 
-Enter -  Proceeds to the next digit
+Enter -  Proceeds to the next digit<br>
 Esc   -  Exits the program
 
 ## Requirements
