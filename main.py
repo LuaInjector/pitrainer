@@ -17,7 +17,7 @@ def on_release(key):
         os.system("cls" if os.name == "nt" else "clear")
         print(figlet_format(pi[0], font = "univers"))
         pi.pop(0)
-    if key == keyboard.Key.esc:
+    if key == keyboard.Key.tab:
             exit(0)
     else:
         return
