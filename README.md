@@ -4,7 +4,7 @@
 ## Usage
 
 Enter - Proceeds to the next digit<br>
-Esc -  Exits the program
+Tab -  Exits the program
 
 ## Requirements
 
