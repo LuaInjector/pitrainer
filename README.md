@@ -6,12 +6,12 @@ Basically a PI Trainer but for mad scientists
 
 - [Index](#index)
 - [Requirements](#requirements)
-  - [Usage](#usage)
-  - [Run](#run)
+- [Usage](#usage)
+- [Run](#run)
 
 ## Requirements 🧾
 
-- [Python](https://www.python.org/downloads/)
+- [Python](https://www.python.org/downloads/) 3.8 or above
 
 ## Usage
 
