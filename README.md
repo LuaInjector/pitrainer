@@ -7,6 +7,8 @@ Basically a PI Trainer but for mad scientists
 - [Index](#index)
 - [Requirements](#requirements)
 - [Usage](#usage)
+    - [Config](#config)
+    - [Keybinds](#keybinds) 
 - [Run](#run)
 
 ## Requirements 🧾
