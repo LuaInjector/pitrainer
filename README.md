@@ -12,7 +12,7 @@ Basically a PI Trainer but for mad scientists
     - [Keybinds](#keybinds) 
 
 
-## Requirements 🧾
+## Requirements
 
 - [Python](https://www.python.org/downloads/) 3.8 or above
 
@@ -25,8 +25,9 @@ Basically a PI Trainer but for mad scientists
 
 ### Config
 
-You can set the number of digits you want practice/learn in the `config.json` file<br>
+- `digits` | int or str : it represents the number of digits you want practice/learn<br>
 Numbers from `0` to `2` will always give you only `3.14` since it is wrapped in one element and it starts counting the digits after the comma 
+- `screen_counter` | boolean: shows the number of digits in the format `counter/digits`
 <br><br>
 
 ### Keybinds
