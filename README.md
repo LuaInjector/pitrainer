@@ -1,5 +1,17 @@
 # PI Trainer
- Basically a PI Trainer but for mad scientists
+
+Basically a PI Trainer but for mad scientists
+
+# Index
+
+- [Index](#index)
+- [Requirements](#requirements)
+  - [Usage](#usage)
+  - [Run](#run)
+
+## Requirements 🧾
+
+- [Python](https://www.python.org/downloads/)
 
 ## Usage
 
@@ -13,10 +25,6 @@ Numbers from `0` to `2` will always give you only `3.14` since it is wrapped in 
 
 Enter - Proceeds to the next digit<br>
 Tab -  Exits the program
-
-## Requirements
-
-- [Python](https://www.python.org/downloads/)
 
 ## Run
 
