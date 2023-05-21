@@ -9,7 +9,15 @@ class MissingFileError(Exception):
     def __init__(self, message):
         self.message = message
 
+##########################################
+
+class Tab(Exception):
+    def __init__(self):
+        self.message = "_"
+
 __all__ = [
     "MissingPropertyError",
-    "MissingFileError"
+    "MissingFileError",
+
+    "Tab"
 ]
