@@ -21,6 +21,7 @@ class PITrainer:
         if key == keyboard.Key.enter:
             os.system("cls" if os.name == "nt" else "clear")
             print(figlet_format(pi[0], font = "univers"))
+            if screen_counter: print(f"{self.counter+1}/{digits}") 
             pi.pop(0)
             self.counter += 1
         if key == keyboard.Key.tab:
@@ -43,9 +44,16 @@ class PITrainer:
             cfg = json.loads(open("config.json", "r").read())
             global digits
             digits = str(cfg.get("digits"))
+            global screen_counter
+            screen_counter = cfg.get("screen_counter")
+        
+        if screen_counter is None:
+            raise MissingPropertyError("Config file is missing the `screen_counter` property!")
+        if screen_counter is not None and not isinstance(screen_counter, bool):
+            raise TypeError("`screen_counter` property must be a boolean!")
         if digits is None:
             raise MissingPropertyError("Config file is missing the `digits` property!")
-        elif not bool(re.compile("^[0-9]+$").search(digits)):
+        if digits is not None and not bool(re.compile("^[0-9]+$").search(digits)):
             raise TypeError("`digits` property must be an integer!")
         
         mp.dps = int(digits) + 1

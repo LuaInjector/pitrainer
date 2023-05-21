@@ -1,3 +1,4 @@
 {
-    "digits": 0
+    "digits": 10,
+    "screen_counter": true
 }
