@@ -6,14 +6,20 @@ Basically a PI Trainer but for mad scientists
 
 - [Index](#index)
 - [Requirements](#requirements)
+- [Run](#run)
 - [Usage](#usage)
     - [Config](#config)
     - [Keybinds](#keybinds) 
-- [Run](#run)
+
 
 ## Requirements 🧾
 
 - [Python](https://www.python.org/downloads/) 3.8 or above
+
+## Run
+
+    pip install -r requirements.txt
+    py main.py
 
 ## Usage
 
@@ -27,8 +33,3 @@ Numbers from `0` to `2` will always give you only `3.14` since it is wrapped in 
 
 Enter - Proceeds to the next digit<br>
 Tab -  Exits the program
-
-## Run
-
-    pip install -r requirements.txt
-    py main.py
